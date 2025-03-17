@@ -1,0 +1,29 @@
+plugins {
+    id 'groovy'
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+group = 'com.mikewarren'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.groovy:groovy:4.0.14'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation 'org.seleniumhq.selenium:selenium-java:4.29.0'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver
+    implementation 'org.seleniumhq.selenium:selenium-chrome-driver:4.29.0'
+
+}
+
+test {
+    useJUnitPlatform()
+}
