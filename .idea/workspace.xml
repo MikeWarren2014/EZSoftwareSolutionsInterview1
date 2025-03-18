@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71b80bb4-2c95-4233-a1c8-92557f7f561a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/com/mikewarren/ezsoftwaresolutionsinterview/pages/LoginPage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/com/mikewarren/ezsoftwaresolutionsinterview/pages/LoginPage.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/com/mikewarren/ezsoftwaresolutionsinterview/utils/WebDriverUtils.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/com/mikewarren/ezsoftwaresolutionsinterview/utils/WebDriverUtils.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
