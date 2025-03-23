@@ -40,3 +40,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### sensitive data file ###
+src/main/resources/key.dat
